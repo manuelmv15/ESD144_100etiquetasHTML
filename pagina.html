@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Tags Table</title>
 </head>
 <body>
@@ -122,13 +120,13 @@
             <td>18</td>
             <td>Hipervínculo</td>
             <td>&lt;a&gt;</td>
-            <td><a href="#">Enlace</a></td>
+            <td><a href="https://www.instagram.com/manuel_.mv/?hl=es-es">Enlace</a></td>
         </tr>
         <tr>
             <td>19</td>
             <td>Imagen</td>
             <td>&lt;img&gt;</td>
-            <td><img src="#" alt="Imagen"></td>
+            <td><img src="TRAVISSCOTTUTOPIAPSD.jpg" alt="Imagen"></td>
         </tr>
         <tr>
             <td>20</td>
@@ -224,7 +222,7 @@
             <td>35</td>
             <td>Botón</td>
             <td>&lt;button&gt;</td>
-            <td><button>Botón</button></td>
+            <td> <button onclick="mostrarAlerta()">Haz clic aquí</button></td>
         </tr>
         <tr>
             <td>36</td>
@@ -256,7 +254,7 @@
             <td>&lt;tr&gt;</td>
             <td><tr><td>Fila de tabla</td></tr></td>
         </tr>
-        
+
         <tr>
             <td>41</td>
             <td>Encabezado de tabla</td>
@@ -411,19 +409,22 @@
             <td>66</td>
             <td>Video</td>
             <td>&lt;video&gt;</td>
-            <td><video controls><source src="#" type="video/mp4">Tu navegador no soporta video.</video></td>
+            <td><video controls width="600">
+                <source src="40.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video></td>
         </tr>
         <tr>
             <td>67</td>
             <td>Audio</td>
             <td>&lt;audio&gt;</td>
-            <td><audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio></td>
+            <td><audio controls><source src="himno.mp3" type="audio/mpeg">Tu navegador no soporta audio.</audio></td>
         </tr>
         <tr>
             <td>68</td>
             <td>Fuente de multimedia</td>
             <td>&lt;source&gt;</td>
-            <td><video controls><source src="video.mp4" type="video/mp4"></video></td>
+            <td><video controls><source src="40.mp4" type="video/mp4"></video></td>
         </tr>
         <tr>
             <td>69</td>
@@ -514,7 +515,7 @@
             <td>83</td>
             <td>Elemento &lt;embed&gt;</td>
             <td>&lt;embed&gt;</td>
-            <td><embed src="example.pdf" width="200" height="200"></td>
+            <td><embed src="arboles.pdf" width="200" height="200"></td>
         </tr>
         <tr>
             <td>84</td>
@@ -550,13 +551,13 @@
             <td>89</td>
             <td>Elemento de mapa de imagen</td>
             <td>&lt;map&gt;</td>
-            <td><img src="image.jpg" usemap="#mapa"><map name="mapa"><area shape="rect" coords="34,44,270,350" alt="Área"></map></td>
+            <td><img src="Kendrick-Lamar-2017-3.jpg" usemap="#mapa"><map name="mapa"><area shape="rect" coords="34,44,270,350" alt="Área"></map></td>
         </tr>
         <tr>
             <td>90</td>
             <td>Área en mapa de imagen</td>
             <td>&lt;area&gt;</td>
-            <td><img src="image.jpg" usemap="#mapa"><map name="mapa"><area shape="circle" coords="90,58,30" alt="Área"></map></td>
+            <td><img src="Tyler-the-Creator-Chromakopia.jpg" usemap="#mapa"><map name="mapa"><area shape="circle" coords="90,58,30" alt="Área"></map></td>
         </tr>
         <tr>
             <td>91</td>
@@ -568,13 +569,13 @@
             <td>92</td>
             <td>Elemento &lt;figure&gt;</td>
             <td>&lt;figure&gt;</td>
-            <td><figure><img src="image.jpg" alt="Figura"><figcaption>Descripción de la imagen</figcaption></figure></td>
+            <td><figure><img src="MBDTF.jpg" alt="Figura"><figcaption>Descripción de la imagen</figcaption></figure></td>
         </tr>
         <tr>
             <td>93</td>
             <td>Elemento de leyenda de figura</td>
             <td>&lt;figcaption&gt;</td>
-            <td><figure><img src="image.jpg" alt="Figura"><figcaption>Descripción de la imagen</figcaption></figure></td>
+            <td><figure><img src="TLOP.jpeg" alt="Figura"><figcaption>Descripción de la imagen</figcaption></figure></td>
         </tr>
         <tr>
             <td>94</td>
@@ -620,4 +621,14 @@
         </tr>
 
     </table>
+    <script>
+        function mostrarAlerta() {
+            alert("Balon de oro!");
+        }
+    </script>
+     <footer>
+        <p style="font-size: 24px; font-weight: bold;">&copy; 2024 Carlos Manuel Melendez Villatoro MV23036. Todos los derechos reservados.</p>
+    </footer>
+    </body>
+</html>
     
